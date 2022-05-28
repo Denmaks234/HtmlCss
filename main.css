@@ -1,0 +1,702 @@
+@import url('http://fonts.cdnfonts.com/css/gotham:300 600 900');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+@import url('http://fonts.cdnfonts.com/css/gotham?styles=17581,17582,17583,17584,17585,17587,17586,17579,17588,17580,17589,17591,17592,17595,17590,17593,17594,17596');
+@import url('http://fonts.cdnfonts.com/css/brandon-grotesque-regular?styles=16714,16715,16710,16711,16709,16712,16713');
+
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+
+
+li{
+    list-style: none;
+}
+ul{
+   list-style: none;
+   display: flex;
+}
+.nav{
+   display: flex;
+
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+input:focus{
+    outline: none;
+   
+}
+
+a {
+    text-decoration: none;
+    text-decoration-line: none;
+    list-style: none;
+    color: black;
+}
+
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.header__inner{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav ul li a{
+    margin-right: 35px;
+}
+
+
+.nav ul li  :hover{
+   padding: 15px 20px;
+    color: white;
+        border-radius: 2px;
+        background-color: rgb(255, 187, 66);
+     
+}
+
+/* main */
+
+.main {
+    height: 590px;
+    background: #000;
+    padding-top:55px; 
+    padding-bottom: 350px;
+    margin-top: 30px;
+    background-color: rgb(112, 157, 202);
+ 
+      
+}
+
+.main__inner {
+    padding-top:55px; 
+    padding-bottom: 350px;
+    
+    height: 590px;
+    text-align: center;
+}
+.main__title {
+   
+        font-size: 35px;
+        font-family: "Gotham";
+        color: rgb(255, 255, 255);
+        text-transform: uppercase;
+        line-height: 0.686;
+        font-weight: 900;
+        
+      
+}
+.main__subtitle {
+    font-size: 12px;
+        font-family: "Gotham";
+        color: rgb(255, 255, 255);
+        text-transform: uppercase;
+        line-height: 0.686;
+        font-weight: 300;
+      margin-top: 10px;
+}
+.main__items {
+    display: flex;
+    margin-left: 40px;
+    margin-top: 47px;
+}
+.main__item{
+    margin-right: 10px;
+    position: relative;
+}
+.main__item  input{
+    height: 40px;
+    width: 290px;
+    background-color: #ffffff;
+    border: none;
+    color: rgb(5, 0, 0);
+    padding-left: 40px;
+   
+   
+  
+}
+
+.main__button {
+    padding: 10px 40px;
+    background-color: rgb(255, 187, 66);
+    color: #fff;
+}
+.main__button a{
+    color: #fff;
+}
+.main__image{
+    position: absolute;
+    top: 400px;
+    margin-left: 270px;
+}
+.main__item i{
+    position: absolute;
+    left: 15px;
+    top: 12px;
+}
+/* service */
+
+.service{
+    height: 922px;
+    padding-top:55px; 
+    margin-top: 30px;
+ 
+      
+}
+
+.service__inner {
+    padding-top:55px; 
+    text-align: center;
+}
+.service__title {
+   
+        font-size: 24px;
+        font-family: "Gotham";
+        color: rgb(0, 0, 0);
+        text-transform: uppercase;
+        line-height: 0.686;
+        font-weight: 900;
+     
+      
+}
+.service__subtitle {
+    font-size: 14px;
+        font-family: "Gotham";
+        color: rgb(0, 0, 0);
+        text-transform: uppercase;
+        line-height: 0.686;
+        font-weight: 300;
+      margin-top: 10px;
+}
+
+.service__items{
+    margin-top: 100px;
+    display: flex;
+    height: 470px;
+    width: 1170px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+.service__item{
+    margin-top: 80px;
+    display: flex;
+
+}
+.service__logo {
+    margin-right: 45px;
+}
+.service__text {
+    width: 430px;
+    height: 105px;
+}
+.service__item__title {
+    margin-bottom: 20px;
+        font-size: 16px;
+        font-family: "Lato";
+        color: rgb(57, 75, 80);
+        font-weight: 900;
+        text-transform: uppercase;
+        line-height: 1.375;
+}
+.service__item__subtitle {
+        font-size: 13px;
+        font-family: "OpenSans";
+        color: rgb(123, 123, 123);
+        line-height: 1.692;
+      
+}
+/* about */
+.about {
+background-color: rgb(255, 193, 85);   
+height: 441px;  
+}
+.about__inner {
+    display: flex;
+    height: 440px;  
+}
+.about__image{
+    width: 90%;
+}
+.about__image img {
+    width: 100%;
+}
+.about__text {
+    width: 100%;
+    color: #fff;
+    margin-top: 100px;
+    margin-left: 80px;
+}
+.about__title {
+    
+        font-size: 30px;
+        font-family: "Gotham";
+        color: rgb(255, 255, 255);
+        text-transform: uppercase;
+        line-height: 0.733;
+        margin-bottom: 28px;
+        font-weight: 900;
+       
+}
+.about__subtitle {
+   
+        font-size: 13px;
+        font-family: "OpenSans";
+        color: rgb(255, 255, 255);
+        line-height: 1.846;
+      margin-bottom: 35px;
+}
+.about__button a {
+    color: rgb(255, 255, 255);
+    padding: 15px  30px;
+        border-style: solid;
+        border-width: 1px;
+        border-color: rgb(231, 173, 72);
+        border-radius: 2px;
+}
+
+
+.product{
+        background-color: rgb(231, 237, 243);
+        height: 899px;
+}
+    .product__inner {
+        padding-top:120px; 
+        text-align: center;
+        padding-bottom: 80px;
+    }
+    .product__title {
+       
+            font-size: 35px;
+            font-family: "Gotham";
+            color: rgb(0, 0, 0);
+            text-transform: uppercase;
+            line-height: 0.686;
+            font-weight: 900;
+         
+          
+    }
+    .product__subtitle {
+        font-size: 12px;
+            font-family: "Gotham";
+            color: rgb(0, 0, 0);
+            text-transform: uppercase;
+            line-height: 0.686;
+            font-weight: 300;
+          margin-top: 10px;
+    }
+
+    .product__items {
+        margin-top: 80px;
+        display: flex;
+        margin-bottom: 195px;
+    }
+    .product__item {
+        height: 485px;
+        width: 385px;
+        text-align: center;
+        border-style: solid;
+        border-width: 1px;
+        border-color: rgb(204, 213, 223);
+        border-radius: 3px;
+        background-color: rgb(255, 255, 255);
+        
+    }
+
+    .product__item:hover{
+       border-radius: 3px;
+    background-color: rgb(112, 157, 202);
+    transform: scale(1.1);
+
+    }
+
+    .product__item:hover .product__item__title{
+        color: #fff;
+    }
+    .product__item:hover .product__item__subtitle{
+        color: #fff;
+    }
+    .product__item:hover .product__item__price{
+        color: #fff;
+    }
+    .product__item__title {
+        margin-top: 55px;
+            font-size: 25px;
+            font-family: "Lato";
+            color: rgb(129, 139, 149);
+            text-transform: uppercase;
+            line-height: 0.88;
+            margin-bottom: 30px;
+           
+    }
+    .product__item__price {
+            font-size: 60px;
+            font-family: "Lato";
+            color: rgb(255, 187, 66);
+            font-weight: bold;
+            text-transform: uppercase;
+            line-height: 0.367;
+            
+    }
+    .product__item__subtitle {
+        margin-top: 20px;
+        text-transform: uppercase;
+        font-size: 12px;
+            font-family: "Lato";
+            color: rgb(129, 139, 149);
+            margin-bottom: 30px;
+    }
+    .product__item__line {
+        height: 1px;
+        width: 325px;
+        background: rgb(168, 177, 187);
+        margin-left: 40px;
+      
+    }
+    .product__item__acount {
+        margin-top: 15px;
+            font-size: 13.5px;
+            font-family: "Lato";
+            color: rgb(181, 187, 193);
+            text-transform: uppercase;
+            line-height: 2.963;
+    }
+    .product__item__button a{
+        margin-top: 32px;
+        color: rgb(255, 255, 255);
+        padding: 15px  30px;
+        background: rgb(255, 187, 66);
+    }
+    .product__item__button{
+        margin-top: 32px;
+    }
+    /* work */
+    .work__inner{
+        margin-top: 155px;
+        text-align: center;
+        margin-bottom: 85px;
+    }
+   
+    .work__title {
+        font-size: 35px;
+        font-family: "Gotham";
+        color: rgb(0, 0, 0);
+        text-transform: uppercase;
+        line-height: 0.686;
+        font-weight: 900;
+    }
+    .worl__subtitle {
+        font-size: 12px;
+        font-family: "Gotham";
+        color: rgb(0, 0, 0);
+        text-transform: uppercase;
+        line-height: 0.686;
+        font-weight: 300;
+      margin-top: 10px;
+    }
+
+    .work__items {
+        display: flex;
+    }
+    .work__item {
+     height: 320px;
+        width: 200px;
+        text-align: center;
+        margin-top: 30px;
+     
+        
+    }
+  
+    .work__item__text{
+    width: 200px;
+    height: 120px;
+    }
+    .work__item__title {
+        margin-top: 100px;
+        margin-bottom: 25px;
+       
+            font-size: 20px;
+            font-family: "Lato";
+            color: rgb(57, 75, 80);
+            font-weight: bold;
+            text-transform: uppercase;
+            line-height: 1.1;
+          }
+          
+    .work__item__subtitle {
+            font-size: 13px;
+            font-family: "OpenSans";
+            color: rgb(123, 123, 123);
+            line-height: 1.692;
+    }
+    .work__logo1{
+        margin-top: 75px;
+    }
+    .work__buttons{
+        text-align: center;
+        margin-top: 90px;
+        margin-bottom: 287px;
+    }
+    .work__buttons a {
+        padding: 15px 30px;
+        background: rgb(255, 187, 66);
+            font-size: 14px;
+            font-family: "Lato";
+            color: rgb(255, 255, 255);
+            text-transform: uppercase;
+    }
+    /* client */
+    .client{
+        height: 905px;
+        background: rgb(255, 187, 66);
+    }
+    .client__inner{
+        text-align: center;
+        padding-top: 135px;
+    }
+   
+    .client__title {
+        font-size: 35px;
+        font-family: "Gotham";
+        color: rgb(255, 255, 255);
+        text-transform: uppercase;
+        line-height: 0.686;
+        font-weight: 900;
+    }
+    .client__subtitle {
+        font-size: 12px;
+        font-family: "Gotham";
+        color: rgb(255, 255, 255);
+        text-transform: uppercase;
+        line-height: 0.686;
+        font-weight: 300;
+      margin-top: 10px;
+    }
+
+    .client__items {
+        width: 1170px;
+        height: 505px;
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 47px;
+    }
+    .client__item {
+        width: 550px;
+        height: 245px;
+        display: flex;
+        background: rgb(255, 255, 255);
+        margin-right: 35px;
+        margin-top: 17px;
+    }
+
+
+    .client__img {
+        margin-left: 15px;
+        margin-top: 45px;
+    }
+    .client__text {
+        width: 335px;
+        height: 165px;
+        margin-left: 25px;
+        margin-top: 45px;
+    }
+    .client__item__subtitle {
+            font-size: 13px;
+            font-family: "OpenSans";
+            color: rgb(123, 123, 123);
+            line-height: 1.692;
+    }
+    .client__item__subtitle span{
+            font-size: 30px;
+            font-family: "Nunito";
+            color: rgb(123, 123, 123);
+            font-weight:700;
+            line-height: 0.733;
+    }
+    .client__item__title {
+            font-size: 14px;
+            font-family: "Lato";
+            color: rgb(246, 119, 44);
+            text-transform: uppercase;
+            line-height: 1.571;
+            margin-top: 30px;
+  
+    }
+
+    .client__item__title span{
+        color: rgb(123, 123, 123);
+    }
+    /* footer */
+    .footer {
+
+    }
+    .container {
+    }
+    .footer__inner {
+        text-align: center;
+        padding-top: 135px;
+    }
+    .footer__title {
+        font-size: 35px;
+        font-family: "Gotham";
+        color: rgb(0, 0, 0);
+        text-transform: uppercase;
+        line-height: 0.686;
+        font-weight: 900;
+    }
+    .footer__subtitle {
+        font-size: 12px;
+        font-family: "Gotham";
+        color: rgb(0, 0, 0);
+        text-transform: uppercase;
+        line-height: 0.686;
+        font-weight: 300;
+      margin-top: 10px;
+    }
+    .footer__items {
+        display: flex;
+        margin-left: 120px;
+        margin-top: 47px;
+    }
+    .footer__item{
+        margin-right: 10px;
+        position: relative;
+        border:  solid 1px rgb(181, 187, 193);
+    }
+    .footer__item  input{
+        height: 40px;
+        width: 390px;
+        background-color: #ffffff;
+        border: none;
+        color: rgb(5, 0, 0);
+        padding-left: 40px;
+       
+       
+      
+    }
+    
+    .footer__button {
+        width: 220px;
+        height: 50px;
+        padding: 15px 40px;
+        background-color: rgb(255, 187, 66);
+        color: #fff;
+    }
+    .footer__button a{
+        color: #fff;
+        text-transform: uppercase;
+       
+    }
+    .footer__image{
+        position: absolute;
+        top: 400px;
+        margin-left: 270px;
+    }
+    .footer__item i{
+        position: absolute;
+        left: 15px;
+        top: 12px;}
+
+    .footer__address{
+        height: 725px;
+        background:url(img/background.jpg) ;
+        background-repeat: no-repeat ;
+        margin-top: 55px;
+    }
+    .footer__address__item{
+        height: 300px;
+        width: 285px;
+     margin-left: 450px;
+     margin-bottom: 10px;
+     margin-top: 45px;
+    }
+
+    .footer__address__image img{
+        margin-top: 45px;
+    }
+    .footer__address__text  {
+        position: absolute;
+        width: 285px;
+    height: 300px;
+    text-align: center;
+    }
+    .footer__address__title{
+        margin-top: 67px;
+        margin-bottom: 23px;
+    }
+    .footer__address__title a{
+            font-size: 15px;
+            font-family: "Lato";
+            color: rgb(255, 255, 255);
+            font-weight: bold;
+            text-transform: uppercase;
+           
+    }
+    .footer__address__subtitle{
+         margin-top: 10px;
+    }
+    .footer__address__subtitle a {
+        font-size: 15px;
+        font-family: "OpenSans";
+        color: rgb(181, 187, 193);
+        font-weight: 400;
+       
+        
+    }
+    .footer__address__subtitle span a{
+        font-size: 15px;
+        font-family: "OpenSans";
+        color: rgb(255, 187, 66);
+        font-weight: 400;
+        margin-top: 10px;
+    }
+    .fotter__address__logo{
+        margin-left: 565px;
+    }
+    .footer__nav{
+        margin-left:220px;
+        display: flex;
+    
+    }
+    .footer__nav ul li a{
+        margin-right: 35px;}
+    .tell{
+            font-size: 22px;
+            font-family: "Lato";
+            color: rgb(57, 75, 80);
+            line-height: 1.072;
+            text-align: center;
+          
+    }
+    .footer__social{
+        margin-top: 25px;
+       text-align: center;
+    }
+    .footer__social a {
+        margin-left: 16px;
+    }
+    /* footer2 */
+    .footer2 {
+    height: 45px;
+    background-color: rgb(112, 157, 202);
+        
+    }
+    .footer2__text {
+    color: #fff;
+  padding-top: 15px;
+    text-align: center;
+    font-size: 13px;
+    font-family: "OpenSans";
+    color: rgb(255, 255, 255);
+    line-height: 1.846;
+    
+    }
